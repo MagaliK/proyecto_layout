@@ -1,0 +1,107 @@
+
+h1 {
+color: blue;
+text-align: center;
+font-weight:700;
+font-family: cursive;
+font-size: xx-larger;
+text-decoration: line-through;
+
+}
+p {
+color: blue;
+text-align: center;
+font-weight:700;
+font-family: cursive;
+font-size: xx-larger;
+text-decoration: line-through;
+}
+
+  body {
+    font-family: helvetica, arial, sans-serif; /*cambia el tipo de letra*/
+}
+
+#tablero-izquierdo {
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    left: 0px;
+    background-color:antiquewhite;
+    border-style:solid;
+}
+#tablero-derecho {
+    width: 25%; /*el 25% de la pantalla*/
+    position:absolute; /**/
+    height: 100%;/*el 100% de la pantalla*/
+    padding: 10px; /*poner sangría*/
+    right: 0px; /*alineado a la derecha*/
+    background-color:blueviolet; /*cambiar color del fondo*/
+    border-style:solid;
+
+  }
+.contenedor {
+  position: relative;
+  height: 6%;
+  box-sizing: border-box;
+ }
+
+.contenedor2 {
+  position: relative;
+  height: 18%;
+  left: -10px;
+}
+
+.reducido {
+  height: 4%;
+}
+
+.componente {
+  position:static;
+  max-width: 100%;
+  max-height: 150%;
+  z-index: 3;
+}
+
+.producto {
+position: absolute;
+max-width: 200%;
+max-height: 200%;
+z-index: 2;
+}
+.layout {
+  height: 80%;
+  width: 45%;
+  border: 6px solid #3a241d;
+  border-radius: 1rem;
+  position: absolute;
+  opacity: inherit;
+  z-index: 1;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  border-style: solid;
+  border-top-width: medium;
+  border-bottom-width: thin;
+}
+
+.rotulo {
+  width: 45%;
+  height: 5%;
+  background: green;
+  position: absolute;
+  opacity: 0.7;
+  z-index: 1;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  border-radius: 1em 1rem 0px 0px;
+  text-align: center;
+  color: red;
+}
+
+.titulo {
+  position: relative;
+  display: inline;
+  top: 0.5rem;
+}
